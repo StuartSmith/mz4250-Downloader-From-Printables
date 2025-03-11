@@ -14,29 +14,46 @@ class Program
     {
         StlDownloader stlDownloader = new StlDownloader();
 
+        var tasklist = new List<Task>();
 
-
-        /*    stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Paladins", "https://www.printables.com/model/1001916-paladin-collection-3/files").Wait();
-        stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\sorcerer", "https://www.printables.com/model/1002157-sorcerer-collection-3/files").Wait();
-        stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Wizards", "https://www.printables.com/model/1002252-wizard-collection-3/files").Wait();
-        stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Warlocks", "https://www.printables.com/model/1002249-warlock-collection-3/files").Wait();
+        //stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Paladins", "https://www.printables.com/model/1001916-paladin-collection-3/files").Wait();
+        //stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\sorcerer", "https://www.printables.com/model/1002157-sorcerer-collection-3/files").Wait();
+        //stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Wizards", "https://www.printables.com/model/1002252-wizard-collection-3/files").Wait();
+        //stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Warlocks", "https://www.printables.com/model/1002249-warlock-collection-3/files").Wait();
         stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Rogue", "https://www.printables.com/model/1002022-rogue-collection-3/files").Wait();
-        stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Monk", "https://www.printables.com/model/1001735-monk-collection-3/files").Wait();
+       /* stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Monk", "https://www.printables.com/model/1001735-monk-collection-3/files").Wait();
         stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Ranger", "https://www.printables.com/model/1001963-ranger-collection-3/files").Wait();
         stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Fighter", "https://www.printables.com/model/1000389-fighter-collection-3/files").Wait();
         stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Druid", "https://www.printables.com/model/999168-druid-collection-3/files").Wait();
         stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Cleric", "https://www.printables.com/model/999150-cleric-collection-3/files").Wait();
         stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Bard", "https://www.printables.com/model/999134-bard-collection-3/files").Wait();
         stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Barbarian", "https://www.printables.com/model/998554-barbarian-collection-3/files").Wait();
-        stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Artificer", "https://www.printables.com/model/998538-artificer-collection-3/files").Wait();*/
-
-
-        stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\MonsterManual", "https://www.printables.com/model/935575-the-updated-dd-monster-manual-collection/files").Wait();
+        stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Artificer", "https://www.printables.com/model/998538-artificer-collection-3/files").Wait();
+       */
+       
+        /*
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\sorcerer", "https://www.printables.com/model/1002157-sorcerer-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Wizards", "https://www.printables.com/model/1002252-wizard-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Warlocks", "https://www.printables.com/model/1002249-warlock-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Rogue", "https://www.printables.com/model/1002022-rogue-collection-3/files")); 
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Monk", "https://www.printables.com/model/1001735-monk-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Ranger", "https://www.printables.com/model/1001963-ranger-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Fighter", "https://www.printables.com/model/1000389-fighter-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Druid", "https://www.printables.com/model/999168-druid-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Cleric", "https://www.printables.com/model/999150-cleric-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Bard", "https://www.printables.com/model/999134-bard-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Barbarian", "https://www.printables.com/model/998554-barbarian-collection-3/files"));
+        tasklist.Add(stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Artificer", "https://www.printables.com/model/998538-artificer-collection-3/files"));
+       */
+        //stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Barbarian", "https://www.printables.com/model/998554-barbarian-collection-3/files").Wait();
+        // stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\MonsterManual", "https://www.printables.com/model/935575-the-updated-dd-monster-manual-collection/files").Wait();
 
         //stlDownloader.DownloadStlFilesAsync(@"C:\MyDownloads\Ranger", "https://www.printables.com/model/1001963-ranger-collection-3/files").Wait();
 
 
-        // Task.WaitAll(tasks.ToArray());
+
+
+         Task.WaitAll(tasklist.ToArray());
 
 
 

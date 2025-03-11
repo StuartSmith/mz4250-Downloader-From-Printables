@@ -119,8 +119,8 @@ namespace mz4250Downloader
                 finally
                 {
                     // Keep browser open for inspection (optional)
-                    Console.WriteLine("Press any key to close...");
-                    Console.ReadKey();
+                   // Console.WriteLine("Press any key to close...");
+                   // Console.ReadKey();
                     driver.Quit();
                 }
             }
